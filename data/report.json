@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-02-14T14:21:16.590606Z",
+  "summary": {
+    "rule_alerts": 1,
+    "anomaly_alerts": 1,
+    "total_alerts": 2
+  },
+  "rule_alerts": [
+    {
+      "type": "Brute Force",
+      "ip": "198.51.100.7",
+      "failed_logins": 7
+    }
+  ],
+  "anomaly_alerts": [
+    {
+      "ip": "198.51.100.7",
+      "failed_logins": 7,
+      "requests": 7
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+# Ignore sensitive API key file
+config/api_key.txt
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data and logs (optional - uncomment if needed)
+# data/
+# logs/
+
+# Build artifacts
+*.egg-info/
+dist/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
