@@ -87,3 +87,4 @@ if __name__ == "__main__":
     except Exception as e:
         print(f"\nError: {e}")
         raise SystemExit(1)
+    print("test push")
